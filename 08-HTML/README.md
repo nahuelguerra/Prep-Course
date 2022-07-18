@@ -115,7 +115,7 @@ El elemento div es un *contenedor* genérico. Es usado principalmente para dar e
 
 #### ***\<a>***
 
-El tag a (del inglés *anchor*), nos permite crear **links** a otros documentos y páginas. Este tag recibe el *atributo* `href` que indica a dónde apunta el link.
+El tag a (del inglés *anchor*), nos permite crear **links** a otros documentos y páginas. Este tag recibe el *atributo* `href` que indica a dónde apunta el link. 
 
 ```html
 <a href="http://www.soyhenry.com">Esto es un link!</a>
