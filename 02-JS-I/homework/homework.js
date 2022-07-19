@@ -157,7 +157,7 @@ function elevarAlCuadrado(num) {
   // ojo: No es raiz cuadrada!
   // Tu código:
   var cuadrado;
-  cuadrado= math.pow(num,2);
+  cuadrado= Math.pow(num , 2);
   return cuadrado;
 }
 
@@ -165,31 +165,31 @@ function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
   var cubo;
-  cubo= math.pow(num,2);
+  cubo= Math.pow(num , 3);
   return cubo;
 }
 
-function elevar(num, exponent) {
+function elevar(num , exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
   var elev;
-  elev= math.pow(num,exponent);
+  elev= Math.pow(num , exponent);
   return elev;
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  var redondeo;
-  redondeo= math.round(num);
-  return redondeo;
+  var redondear = Math.round(num);
+  return redondear;
+
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
   var redondeo;
-  redondeo= math.ceil(num);
+  redondeo= Math.ceil(num);
   return redondeo;
 }
 
@@ -197,7 +197,7 @@ function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
   var a;
-  a = math.random();
+  a = Math.random();
   return a;
 }
 
@@ -231,7 +231,7 @@ function combinarNombres(nombre, apellido) {
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
   var str1;
-  str1 = nombre + apellido;
+  str1 = nombre + ' ' + apellido;
   return str1;
 }
 
@@ -240,7 +240,7 @@ function obtenerSaludo(nombre) {
   // "Martin" -> "Hola Martin!"
   // Tu código:
   var str1;
-  str1 = 'hola ' + nombre + '!' ;
+  str1 = 'Hola ' + nombre + '!' ;
   return str1;
 }
 
