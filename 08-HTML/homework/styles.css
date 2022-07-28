@@ -1,5 +1,17 @@
-h1 {
-    color: red;
+#firstDiv{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    color: black;
+    width: 620px;
+}
+h1, h3, h4{
+    margin: 8px;
 }
 img {
     width: 400px;
@@ -12,10 +24,28 @@ img {
     border: 10px dashed black;
 }
 #spanId {
-    font-size: 18px;
+    font-size: 20px;
     margin: 50px;
 }
 #bodyId{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 130px;
     background-color: #05c5eb;
     background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/15/b9/3d/6f/la-de-la-casa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    margin: 10px;
+}
+#copyDiv{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    background-size: cover;
+    font-size: 20px;
+    width: 100%;
 }
